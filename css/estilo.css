@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+* { margin:0 auto}
+
+html,body {
+	background-color:white;
+	font-family:georgia, times, serif;
+	height:100%;
+	width: 100%;
+	margin:0 auto
+}
+
+header {
+	background-color:#000;
+	background-position:initial initial;
+	background-repeat:initial initial;
+	width:100%;
+	left: 0%;
+	top: 0%;
+	font-size: 1.5em;
+	position:fixed;
+	z-index:9999;
+	float: left
+}
+
+nav {
+	padding:1%;
+	margin-right:1.244509517%;
+	word-spacing:1.46em;
+	float: right;
+	margin-bottom: 1.244509517%
+}
+
+/*-----conteudo em comum-----*/
+section{
+	background-position:initial initial;
+	background-repeat:initial initial;
+	height:100%;
+	width:100%;
+	float: left
+}
+/*----- End Conteudo em comum -----*/
+
+/*------ Equivalente as paginas -------*/
+#home{
+	background-color:#AFC9FF;
+}
+
+#servico{
+	background-color:#777CDC;
+}
+
+#empresa{
+	background-color:#9B70C0;
+}
+
+#equipe{
+	background-color:#361879;
+}
+
+#portifolio{
+	background-color:#6982A2;
+}
+
+#parceiros{
+	background-color:#f7E6A4;
+}
+
+#contato{
+	background-color:#9B70C0;
+}
+/*------ End Paginas ------*/
+
+a {
+	color:white;
+	text-decoration:none;
+}
+
+a:hover {
+ 	text-decoration:underline;
+}
